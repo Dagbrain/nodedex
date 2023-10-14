@@ -1,9 +1,7 @@
 import {LiFiWidget, WidgetConfig } from '@lifi/widget';
-import { useMemo } from 'react';
 
-export const WidgetPage = () => {
-    const widgetConfig: WidgetConfig = useMemo(() => ({
-      integrator:"PylonDEX",
+
+  const widgetConfig: WidgetConfig = {
       fee: 0.01,
       fromChain: 137,
       toChain: 137,
@@ -36,12 +34,10 @@ export const WidgetPage = () => {
         hiddenUI: ['appearance'],
         variant: 'expandable',
         subvariant: 'split',
-      }), []);
-  
-    return (
-      <div>
-      <LiFiWidget integrator="PylonDEX" config={widgetConfig} />
-      </div>
-    );
-  };
-  export default WidgetPage;
+      };
+
+      export const WidgetPage = () => {
+        return (
+          <LiFiWidget integrator="PylonDEX" config={widgetConfig} />
+        );
+      };

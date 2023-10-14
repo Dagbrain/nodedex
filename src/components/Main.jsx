@@ -1,5 +1,6 @@
 import React from 'react'
 import videoBg from "../assets/particlesBg.mp4"
+import { WidgetPage } from '../widgetpage'
 
 
 
@@ -15,7 +16,7 @@ const Main = () => {
           </h1>
         <div className='WidgetPage'>
           <div>
-          
+          <WidgetPage />
           </div>
         </div>
       <video src={videoBg} autoPlay loop muted />
