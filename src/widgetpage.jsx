@@ -33,6 +33,7 @@ export const WidgetPage = () => {
           },
         },
         appearance: 'dark',
+        hiddenUI: ['appearance'],
         variant: 'expandable',
         subvariant: 'split',
       }), []);
