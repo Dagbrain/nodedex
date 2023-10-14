@@ -1,17 +1,13 @@
-import { LiFiWidget } from '@lifi/widget';
 import './App.css';
+import Main from './components/Main';
+
+
 
 function App() {
   return (
-    <LiFiWidget
-      config={{
-        containerStyle: {
-          border: `1px solid rgb(234, 234, 234)`,
-          borderRadius: '16px',
-        },
-      }}
-      integrator="PylonDEX"
-    />
+    <div>
+      <Main />
+    </div>
   );
 }
 
