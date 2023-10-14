@@ -9,11 +9,13 @@ const Main = () => {
 
     <div className='main'>
             <div className='overlay'></div>
+          <div>
           <h1 className="title">
             <span className="gradient-text-0">
                 PylonDEX
             </span>
           </h1>
+          </div>
         <div className='WidgetPage'>
           <div>
           <WidgetPage />
