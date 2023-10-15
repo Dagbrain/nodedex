@@ -1,5 +1,6 @@
-import {LiFiWidget } from '@lifi/widget';
+import {LiFiWidget, WidgetConfig } from '@lifi/widget';
 import './App.css';
+import './index.css';
 
   const widgetConfig: WidgetConfig = {
       fee: 0.01,
