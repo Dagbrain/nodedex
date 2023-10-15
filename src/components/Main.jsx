@@ -2,6 +2,7 @@ import React from 'react'
 import videoBg from "../assets/particlesBg.mp4"
 import { WidgetPage } from '../widgetpage'
 import '../App.css';
+import '../index.css';
 
 
 const Main = () => {
